@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* header and nav bar styles */
+header {
+    width: 100%;
+    height: 1000px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 700px;
+    font-size: 45px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 13px 40px;
+}
+
+nav li {
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Brand info styles */
+.brand-container {
+    text-align: center;
+}
+
+.Brand-info {
+    margin: auto;
+    width: 650px;
+    height: 225px;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.brand-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+/* banner image */
+.banner-img {
+    margin-top: 50px;
+    align-items: center;
+}
+
+.image-banner {
+    width: 1100px;
+    height: auto;
+}
+
+/* team styles */
+.teams {
+    margin: 20px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.team-img {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.team-info {
+    margin-left: 20px;
+    width: 537px;
+    height: 304px;
+}
+
+/* Arcitect styles */
+.arcitect-container {
+    text-align: center;
+}
+
+.arcitect {
+    display: flex;
+    margin: 20px 150px;
+}
+
+.button-experience {
+    width: 360px;
+    height: 128px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 40px;
+    border: none;
+}
+
+.arcitect-img {
+    width: 508px;
+    height: 782px;
+}
+
+/* some fact styles */
+.some-fact {
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.some-title {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.some-description {
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+}
+
+/* font awesome icon */
+.icon {
+    display: flex;
+}
+
+.fa-solid {
+    margin-top: 30px;
+}
+
+.icon-setup {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.icon-title {
+    font-size: 50px;
+}
+
+/* sponsor styles */
+.sponsor-details {
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.sponsor-title {}
+
+.sponsor-details {
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+}
+
+.sponsors {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.sponsor-icon {
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+/* footer styles */
+.footer{
+    margin: auto;
+    background: #FFF4E7;
+    width: 900px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.footer p{
+    text-align: center;
+ color: #424242;
+}
